@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "io.dbx.k8s",
+  "name": "Kubernetes Manager",
+  "description": "Manage Kubernetes clusters, workloads and resources from DBX.",
+  "publisher": "eryajf",
+  "version": "0.1.1",
+  "permissions": [
+    "host.events"
+  ],
+  "icon": "https://github.com/eryajf/dbx-plugin-k8s/raw/82240b2d6d32c8fb8890a2a0415630a466d0faef/assets/plugin.png",
+  "tags": [
+    "kubernetes",
+    "containers",
+    "devops"
+  ],
+  "source": "https://github.com/eryajf/dbx-plugin-k8s/tree/82240b2d6d32c8fb8890a2a0415630a466d0faef",
+  "homepage": "https://github.com/eryajf/dbx-plugin-k8s",
+  "license": "Apache-2.0",
+  "releaseNotes": "Initial DBX Store release: manage Kubernetes clusters and resources, inspect workloads, view logs, use pod terminals and port forwarding, and operate resources using the connection credentials and Kubernetes RBAC.",
+  "localizations": {
+    "zh-CN": {
+      "name": "Kubernetes 管理",
+      "description": "在 DBX 中管理 Kubernetes 集群、工作负载和资源。"
+    }
+  },
+  "targets": [
+    {
+      "target": "darwin-arm64",
+      "url": "https://github.com/eryajf/dbx-plugin-k8s/releases/download/v0.1.1/io.dbx.k8s-0.1.1-darwin-arm64.dbxp",
+      "sha256": "ce692c581d99d5fbfa685a4ca55d1818c9f053ae00e0aea3fb44cef4ffb6845b",
+      "size": 30809471
+    },
+    {
+      "target": "darwin-x64",
+      "url": "https://github.com/eryajf/dbx-plugin-k8s/releases/download/v0.1.1/io.dbx.k8s-0.1.1-darwin-x64.dbxp",
+      "sha256": "15d773e1b3cdece4bb53bb80eed3a4bb098520f0d3f8c66e835dfbf99b920646",
+      "size": 32002068
+    },
+    {
+      "target": "linux-arm64",
+      "url": "https://github.com/eryajf/dbx-plugin-k8s/releases/download/v0.1.1/io.dbx.k8s-0.1.1-linux-arm64.dbxp",
+      "sha256": "14da30b92639e51aa376bdde63a4eaca2de7aebd101eb6909da6f54987d4d766",
+      "size": 30356209
+    },
+    {
+      "target": "linux-x64",
+      "url": "https://github.com/eryajf/dbx-plugin-k8s/releases/download/v0.1.1/io.dbx.k8s-0.1.1-linux-x64.dbxp",
+      "sha256": "4d47af6ae7e96da06170ca783ef9cc5d574aa9bc3e3233119a85cde7eb96568f",
+      "size": 31970401
+    },
+    {
+      "target": "windows-arm64",
+      "url": "https://github.com/eryajf/dbx-plugin-k8s/releases/download/v0.1.1/io.dbx.k8s-0.1.1-windows-arm64.dbxp",
+      "sha256": "b259d73b482695e53ccedac326504336b8eface7fc72182fddc9e0f2b473f5c3",
+      "size": 30404017
+    },
+    {
+      "target": "windows-x64",
+      "url": "https://github.com/eryajf/dbx-plugin-k8s/releases/download/v0.1.1/io.dbx.k8s-0.1.1-windows-x64.dbxp",
+      "sha256": "5b5a63c663a2d78e988033bef9fb51aa25adde3fe1c918db2a76e7485b795a71",
+      "size": 32260261
+    }
+  ]
+}
